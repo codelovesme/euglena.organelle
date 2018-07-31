@@ -12,7 +12,10 @@
     "start": "gulp buildAndTest && gulp watch"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name":"Fedai Kaya",
+    "email":"codelovesme@gmail.com"
+  },
   "license": "ISC",
   "typings": ".dist/src/index.d.ts",
   "dependencies": {
