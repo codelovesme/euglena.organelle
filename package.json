@@ -1,0 +1,41 @@
+{
+  "name": "euglena.organelle.git",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".dist/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "start": "gulp buildAndTest && gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "typings": ".dist/src/index.d.ts",
+  "dependencies": {
+    "@euglena/core": "^0.1.7",
+    "@euglena/organelle.time.js": "^0.1.0",
+    "@euglena/template": "^2.0.0",
+    "cessnalib": "^0.7.0",
+    "jsonminify": "^0.4.1",
+    "simple-git": "^1.96.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/node": "^7.0.14",
+    "@types/mocha": "^2.2.40",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-mocha": "^4.3.1",
+    "gulp-typescript": "^3.0.1",
+    "typescript": "^2.3.3",
+    "gulp-sourcemaps": "^2.6.1",
+    "merge2": "^1.2.0",
+    "chai": "^4.1.2"
+  },
+  "files": [
+    ".dist/src/*"
+  ]
+}
